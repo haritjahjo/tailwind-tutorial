@@ -5,7 +5,17 @@ module.exports = {
     "index.html"
   ],
   theme: {
-    extend: {},
+    colors: {
+        'ocean': '#16c0b0',
+        'leaf': '#84cf6a',
+        'mist': '#d8d8d8',
+        'midnight': '#39495c',
+        'cloud': '#ffffff'
+      },
+      screen: {
+        'md': '860px'
+      }
+    
   },
   plugins: [],
 }
